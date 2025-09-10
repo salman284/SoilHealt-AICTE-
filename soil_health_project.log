@@ -1,0 +1,708 @@
+2025-09-09 20:17:47,533 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 20:17:47,533 - INFO - Running step: data
+2025-09-09 20:17:47,533 - INFO - Directory created/verified: data
+2025-09-09 20:17:47,533 - INFO - Directory created/verified: models
+2025-09-09 20:17:47,533 - INFO - Directory created/verified: results
+2025-09-09 20:17:47,533 - INFO - Directory created/verified: results/visualizations
+2025-09-09 20:17:47,539 - INFO - Directory created/verified: logs
+2025-09-09 20:17:47,539 - INFO - ==================================================
+2025-09-09 20:17:47,539 - INFO - STEP 1: Dataset Generation
+2025-09-09 20:17:47,539 - INFO - ==================================================
+2025-09-09 20:17:47,539 - INFO - Starting dataset generation...
+2025-09-09 20:18:24,771 - WARNING - Matplotlib is building the font cache; this may take a moment.
+2025-09-09 20:18:25,120 - INFO - generated new fontManager
+2025-09-09 20:18:36,041 - ERROR - Dataset generation failed: Cannot save file into a non-existent directory: 'data\data'
+2025-09-09 20:18:36,048 - INFO - ======================================================================
+2025-09-09 20:18:36,048 - ERROR - Please check the logs for details.
+2025-09-09 20:18:36,048 - INFO - ======================================================================
+2025-09-09 20:20:51,820 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 20:20:51,820 - INFO - Running step: data
+2025-09-09 20:20:51,820 - INFO - Directory created/verified: data
+2025-09-09 20:20:51,820 - INFO - Directory created/verified: models
+2025-09-09 20:20:51,820 - INFO - Directory created/verified: results
+2025-09-09 20:20:51,820 - INFO - Directory created/verified: results/visualizations
+2025-09-09 20:20:51,820 - INFO - Directory created/verified: logs
+2025-09-09 20:20:51,820 - INFO - ==================================================
+2025-09-09 20:20:51,820 - INFO - STEP 1: Dataset Generation
+2025-09-09 20:20:51,820 - INFO - ==================================================
+2025-09-09 20:20:51,820 - INFO - Starting dataset generation...
+2025-09-09 20:20:55,641 - ERROR - Dataset generation failed: Cannot save file into a non-existent directory: 'data\data'
+2025-09-09 20:20:55,641 - INFO - ======================================================================
+2025-09-09 20:20:55,641 - ERROR - Please check the logs for details.
+2025-09-09 20:20:55,641 - INFO - ======================================================================
+2025-09-09 20:21:24,767 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 20:21:24,767 - INFO - Running step: data
+2025-09-09 20:21:24,767 - INFO - Directory created/verified: data
+2025-09-09 20:21:24,771 - INFO - Directory created/verified: models
+2025-09-09 20:21:24,771 - INFO - Directory created/verified: results
+2025-09-09 20:21:24,771 - INFO - Directory created/verified: results/visualizations
+2025-09-09 20:21:24,771 - INFO - Directory created/verified: logs
+2025-09-09 20:21:24,771 - INFO - ==================================================
+2025-09-09 20:21:24,771 - INFO - STEP 1: Dataset Generation
+2025-09-09 20:21:24,771 - INFO - ==================================================
+2025-09-09 20:21:24,771 - INFO - Starting dataset generation...
+2025-09-09 20:21:28,350 - INFO - Dataset generated successfully: data/soil_health_dataset.csv
+2025-09-09 20:21:28,350 - INFO - Test dataset generated: data/soil_health_test_dataset.csv
+2025-09-09 20:21:28,350 - INFO - ======================================================================
+2025-09-09 20:21:28,370 - INFO - All components have been generated and saved.
+2025-09-09 20:21:28,370 - INFO - Check the following directories for outputs:
+2025-09-09 20:21:28,389 - INFO - ======================================================================
+2025-09-09 20:22:16,589 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 20:22:16,589 - INFO - Running step: all
+2025-09-09 20:22:16,589 - INFO - Directory created/verified: data
+2025-09-09 20:22:16,591 - INFO - Directory created/verified: models
+2025-09-09 20:22:16,591 - INFO - Directory created/verified: results
+2025-09-09 20:22:16,591 - INFO - Directory created/verified: results/visualizations
+2025-09-09 20:22:16,593 - INFO - Directory created/verified: logs
+2025-09-09 20:22:16,593 - INFO - ==================================================
+2025-09-09 20:22:16,593 - INFO - STEP 1: Dataset Generation
+2025-09-09 20:22:16,593 - INFO - ==================================================
+2025-09-09 20:22:16,593 - INFO - Starting dataset generation...
+2025-09-09 20:22:20,033 - INFO - Dataset generated successfully: data/soil_health_dataset.csv
+2025-09-09 20:22:20,033 - INFO - Test dataset generated: data/soil_health_test_dataset.csv
+2025-09-09 20:22:20,033 - INFO - ==================================================
+2025-09-09 20:22:20,033 - INFO - STEP 2: Data Exploration
+2025-09-09 20:22:20,036 - INFO - ==================================================
+2025-09-09 20:22:20,036 - INFO - Running data exploration...
+2025-09-09 20:22:20,036 - INFO - Please run the notebook: notebooks/dataset_exploration.ipynb
+2025-09-09 20:22:20,036 - INFO - Data exploration completed (manual step)
+2025-09-09 20:22:20,036 - INFO - ==================================================
+2025-09-09 20:22:20,036 - INFO - STEP 3: Model Training
+2025-09-09 20:22:20,036 - INFO - ==================================================
+2025-09-09 20:22:20,036 - INFO - Starting model training...
+2025-09-09 20:22:23,118 - ERROR - Model training failed: No module named 'tensorflow'
+2025-09-09 20:22:23,121 - INFO - ==================================================
+2025-09-09 20:22:23,121 - INFO - STEP 4: Model Evaluation
+2025-09-09 20:22:23,121 - INFO - ==================================================
+2025-09-09 20:22:23,122 - INFO - Starting model evaluation...
+2025-09-09 20:22:25,393 - ERROR - Model evaluation failed: No module named 'tensorflow'
+2025-09-09 20:22:25,393 - INFO - ==================================================
+2025-09-09 20:22:25,395 - INFO - STEP 5: Visualization Generation
+2025-09-09 20:22:25,395 - INFO - ==================================================
+2025-09-09 20:22:25,395 - INFO - Generating visualizations...
+2025-09-09 21:16:42,333 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:16:42,335 - INFO - Running step: data
+2025-09-09 21:16:42,335 - INFO - Directory created/verified: data
+2025-09-09 21:16:42,335 - INFO - Directory created/verified: models
+2025-09-09 21:16:42,335 - INFO - Directory created/verified: results
+2025-09-09 21:16:42,335 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:16:42,335 - INFO - Directory created/verified: logs
+2025-09-09 21:16:42,335 - INFO - ==================================================
+2025-09-09 21:16:42,335 - INFO - STEP 1: Dataset Generation
+2025-09-09 21:16:42,335 - INFO - ==================================================
+2025-09-09 21:16:42,335 - INFO - Starting dataset generation...
+2025-09-09 21:16:49,474 - ERROR - Dataset generation failed: Cannot save file into a non-existent directory: 'data\data'
+2025-09-09 21:16:49,474 - INFO - ======================================================================
+2025-09-09 21:16:49,484 - ERROR - Please check the logs for details.
+2025-09-09 21:16:49,484 - INFO - ======================================================================
+2025-09-09 21:19:40,484 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:19:40,484 - INFO - Running step: data
+2025-09-09 21:19:40,484 - INFO - Directory created/verified: data
+2025-09-09 21:19:40,484 - INFO - Directory created/verified: models
+2025-09-09 21:19:40,489 - INFO - Directory created/verified: results
+2025-09-09 21:19:40,489 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:19:40,489 - INFO - Directory created/verified: logs
+2025-09-09 21:19:40,489 - INFO - ==================================================
+2025-09-09 21:19:40,489 - INFO - STEP 1: Dataset Generation
+2025-09-09 21:19:40,489 - INFO - ==================================================
+2025-09-09 21:19:40,489 - INFO - Starting dataset generation...
+2025-09-09 21:19:44,208 - INFO - Dataset generated successfully: data/soil_health_dataset.csv
+2025-09-09 21:19:44,208 - INFO - Test dataset generated: data/soil_health_test_dataset.csv
+2025-09-09 21:19:44,208 - INFO - ======================================================================
+2025-09-09 21:19:44,208 - INFO - All components have been generated and saved.
+2025-09-09 21:19:44,208 - INFO - Check the following directories for outputs:
+2025-09-09 21:19:44,217 - INFO -   data/ - Generated datasets
+2025-09-09 21:19:44,217 - INFO -   models/ - Trained machine learning models
+2025-09-09 21:19:44,218 - INFO -   results/ - Analysis results and visualizations
+2025-09-09 21:19:44,218 - INFO -   notebooks/ - Jupyter notebooks for detailed analysis
+2025-09-09 21:19:44,219 - INFO - ======================================================================
+2025-09-09 21:20:46,416 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:20:46,416 - INFO - Running step: train
+2025-09-09 21:20:46,416 - INFO - Directory created/verified: data
+2025-09-09 21:20:46,416 - INFO - Directory created/verified: models
+2025-09-09 21:20:46,416 - INFO - Directory created/verified: results
+2025-09-09 21:20:46,416 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:20:46,416 - INFO - Directory created/verified: logs
+2025-09-09 21:20:46,416 - INFO - ==================================================
+2025-09-09 21:20:46,416 - INFO - STEP 3: Model Training
+2025-09-09 21:20:46,416 - INFO - ==================================================
+2025-09-09 21:20:46,416 - INFO - Starting model training...
+2025-09-09 21:20:50,087 - ERROR - Model training failed: No module named 'tensorflow'
+2025-09-09 21:20:50,087 - INFO - ======================================================================
+2025-09-09 21:20:50,089 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:20:50,089 - ERROR - Please check the logs for details.
+2025-09-09 21:20:50,089 - INFO - ======================================================================
+2025-09-09 21:29:00,234 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:29:00,234 - INFO - Running step: train
+2025-09-09 21:29:00,234 - INFO - Directory created/verified: data
+2025-09-09 21:29:00,234 - INFO - Directory created/verified: models
+2025-09-09 21:29:00,234 - INFO - Directory created/verified: results
+2025-09-09 21:29:00,234 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:29:00,234 - INFO - Directory created/verified: logs
+2025-09-09 21:29:00,234 - INFO - ==================================================
+2025-09-09 21:29:00,234 - INFO - STEP 3: Model Training
+2025-09-09 21:29:00,234 - INFO - ==================================================
+2025-09-09 21:29:00,247 - INFO - Starting model training...
+2025-09-09 21:29:12,506 - ERROR - Model training failed: No module named 'tensorflow.python'
+2025-09-09 21:29:12,522 - INFO - ======================================================================
+2025-09-09 21:29:12,522 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:29:12,522 - ERROR - Please check the logs for details.
+2025-09-09 21:29:12,522 - INFO - ======================================================================
+2025-09-09 21:36:26,514 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:36:26,514 - INFO - Running step: train
+2025-09-09 21:36:26,514 - INFO - Directory created/verified: data
+2025-09-09 21:36:26,514 - INFO - Directory created/verified: models
+2025-09-09 21:36:26,527 - INFO - Directory created/verified: results
+2025-09-09 21:36:26,527 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:36:26,529 - INFO - Directory created/verified: logs
+2025-09-09 21:36:26,530 - INFO - ==================================================
+2025-09-09 21:36:26,530 - INFO - STEP 3: Model Training
+2025-09-09 21:36:26,530 - INFO - ==================================================
+2025-09-09 21:36:26,530 - INFO - Starting model training...
+2025-09-09 21:36:37,071 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:36:37,073 - ERROR - Model training failed: 'SoilDataPreprocessor' object has no attribute 'fit_transform'
+2025-09-09 21:36:37,073 - INFO - ======================================================================
+2025-09-09 21:36:37,073 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:36:37,073 - ERROR - Please check the logs for details.
+2025-09-09 21:36:37,073 - INFO - ======================================================================
+2025-09-09 21:38:16,528 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:38:16,528 - INFO - Running step: train
+2025-09-09 21:38:16,528 - INFO - Directory created/verified: data
+2025-09-09 21:38:16,528 - INFO - Directory created/verified: models
+2025-09-09 21:38:16,528 - INFO - Directory created/verified: results
+2025-09-09 21:38:16,528 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:38:16,528 - INFO - Directory created/verified: logs
+2025-09-09 21:38:16,528 - INFO - ==================================================
+2025-09-09 21:38:16,528 - INFO - STEP 3: Model Training
+2025-09-09 21:38:16,528 - INFO - ==================================================
+2025-09-09 21:38:16,528 - INFO - Starting model training...
+2025-09-09 21:38:20,137 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:38:20,496 - ERROR - Model training failed: 'tuple' object has no attribute 'columns'
+2025-09-09 21:38:20,496 - INFO - ======================================================================
+2025-09-09 21:38:20,496 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:38:20,496 - ERROR - Please check the logs for details.
+2025-09-09 21:38:20,496 - INFO - ======================================================================
+2025-09-09 21:39:05,978 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:39:05,978 - INFO - Running step: train
+2025-09-09 21:39:05,978 - INFO - Directory created/verified: data
+2025-09-09 21:39:05,978 - INFO - Directory created/verified: models
+2025-09-09 21:39:05,981 - INFO - Directory created/verified: results
+2025-09-09 21:39:05,981 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:39:05,981 - INFO - Directory created/verified: logs
+2025-09-09 21:39:05,981 - INFO - ==================================================
+2025-09-09 21:39:05,981 - INFO - STEP 3: Model Training
+2025-09-09 21:39:05,981 - INFO - ==================================================
+2025-09-09 21:39:05,981 - INFO - Starting model training...
+2025-09-09 21:39:09,406 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:39:09,535 - ERROR - Model training failed: 'soil_degradation_risk'
+2025-09-09 21:39:09,535 - INFO - ======================================================================
+2025-09-09 21:39:09,535 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:39:09,535 - ERROR - Please check the logs for details.
+2025-09-09 21:39:09,535 - INFO - ======================================================================
+2025-09-09 21:39:37,560 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:39:37,560 - INFO - Running step: train
+2025-09-09 21:39:37,560 - INFO - Directory created/verified: data
+2025-09-09 21:39:37,560 - INFO - Directory created/verified: models
+2025-09-09 21:39:37,560 - INFO - Directory created/verified: results
+2025-09-09 21:39:37,560 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:39:37,560 - INFO - Directory created/verified: logs
+2025-09-09 21:39:37,560 - INFO - ==================================================
+2025-09-09 21:39:37,560 - INFO - STEP 3: Model Training
+2025-09-09 21:39:37,560 - INFO - ==================================================
+2025-09-09 21:39:37,560 - INFO - Starting model training...
+2025-09-09 21:39:41,023 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:39:41,166 - INFO - Training SVM models...
+2025-09-09 21:47:31,826 - ERROR - Model training failed: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+Detailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.
+2025-09-09 21:47:31,828 - INFO - ======================================================================
+2025-09-09 21:47:31,828 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:47:31,828 - ERROR - Please check the logs for details.
+2025-09-09 21:47:31,829 - INFO - ======================================================================
+2025-09-09 21:50:23,386 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:50:23,386 - INFO - Running step: train
+2025-09-09 21:50:23,388 - INFO - Directory created/verified: data
+2025-09-09 21:50:23,388 - INFO - Directory created/verified: models
+2025-09-09 21:50:23,388 - INFO - Directory created/verified: results
+2025-09-09 21:50:23,388 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:50:23,388 - INFO - Directory created/verified: logs
+2025-09-09 21:50:23,388 - INFO - ==================================================
+2025-09-09 21:50:23,388 - INFO - STEP 3: Model Training
+2025-09-09 21:50:23,388 - INFO - ==================================================
+2025-09-09 21:50:23,388 - INFO - Starting model training...
+2025-09-09 21:50:25,513 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:50:25,513 - INFO - Training SVM models...
+2025-09-09 21:50:31,127 - ERROR - Model training failed: 
+All the 230 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+46 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 859, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 197, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\validation.py", line 2971, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\validation.py", line 1368, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\generic.py", line 2168, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Organic'
+
+--------------------------------------------------------------------------------
+184 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_validation.py", line 859, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\svm\_base.py", line 197, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\validation.py", line 2971, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\validation.py", line 1368, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\validation.py", line 1053, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_array_api.py", line 757, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\salma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\generic.py", line 2168, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'NPK'
+
+2025-09-09 21:50:31,129 - INFO - ======================================================================
+2025-09-09 21:50:31,129 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:50:31,129 - ERROR - Please check the logs for details.
+2025-09-09 21:50:31,129 - INFO - ======================================================================
+2025-09-09 21:52:04,192 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:52:04,192 - INFO - Running step: train
+2025-09-09 21:52:04,192 - INFO - Directory created/verified: data
+2025-09-09 21:52:04,192 - INFO - Directory created/verified: models
+2025-09-09 21:52:04,192 - INFO - Directory created/verified: results
+2025-09-09 21:52:04,192 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:52:04,192 - INFO - Directory created/verified: logs
+2025-09-09 21:52:04,192 - INFO - ==================================================
+2025-09-09 21:52:04,192 - INFO - STEP 3: Model Training
+2025-09-09 21:52:04,192 - INFO - ==================================================
+2025-09-09 21:52:04,192 - INFO - Starting model training...
+2025-09-09 21:52:06,186 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:52:06,200 - INFO - Training SVM models...
+2025-09-09 21:52:10,566 - INFO - SVM classifier trained and saved
+2025-09-09 21:52:11,226 - INFO - SVM regressor trained and saved
+2025-09-09 21:52:11,230 - INFO - Training ANN models...
+2025-09-09 21:52:12,162 - INFO - ANN classifier trained - Accuracy: 0.9050
+2025-09-09 21:52:15,228 - INFO - ANN regressor trained - R²: 0.7706
+2025-09-09 21:52:15,228 - INFO - Training clustering models...
+2025-09-09 21:52:15,228 - ERROR - Model training failed: 'SoilHealthClustering' object has no attribute 'fit_predict'
+2025-09-09 21:52:15,228 - INFO - ======================================================================
+2025-09-09 21:52:15,228 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:52:15,228 - ERROR - Please check the logs for details.
+2025-09-09 21:52:15,228 - INFO - ======================================================================
+2025-09-09 21:52:41,371 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:52:41,371 - INFO - Running step: train
+2025-09-09 21:52:41,371 - INFO - Directory created/verified: data
+2025-09-09 21:52:41,371 - INFO - Directory created/verified: models
+2025-09-09 21:52:41,371 - INFO - Directory created/verified: results
+2025-09-09 21:52:41,371 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:52:41,371 - INFO - Directory created/verified: logs
+2025-09-09 21:52:41,371 - INFO - ==================================================
+2025-09-09 21:52:41,371 - INFO - STEP 3: Model Training
+2025-09-09 21:52:41,371 - INFO - ==================================================
+2025-09-09 21:52:41,371 - INFO - Starting model training...
+2025-09-09 21:52:43,285 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:52:43,291 - INFO - Training SVM models...
+2025-09-09 21:52:47,551 - INFO - SVM classifier trained and saved
+2025-09-09 21:52:48,197 - INFO - SVM regressor trained and saved
+2025-09-09 21:52:48,197 - INFO - Training ANN models...
+2025-09-09 21:52:49,096 - INFO - ANN classifier trained - Accuracy: 0.9050
+2025-09-09 21:52:52,194 - INFO - ANN regressor trained - R²: 0.7706
+2025-09-09 21:52:52,194 - INFO - Training clustering models...
+2025-09-09 21:52:55,794 - ERROR - Model training failed: 'SoilHealthClustering' object has no attribute 'save_model'
+2025-09-09 21:52:55,794 - INFO - ======================================================================
+2025-09-09 21:52:55,794 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:52:55,794 - ERROR - Please check the logs for details.
+2025-09-09 21:52:55,794 - INFO - ======================================================================
+2025-09-09 21:53:22,047 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:53:22,047 - INFO - Running step: train
+2025-09-09 21:53:22,047 - INFO - Directory created/verified: data
+2025-09-09 21:53:22,047 - INFO - Directory created/verified: models
+2025-09-09 21:53:22,047 - INFO - Directory created/verified: results
+2025-09-09 21:53:22,047 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:53:22,047 - INFO - Directory created/verified: logs
+2025-09-09 21:53:22,047 - INFO - ==================================================
+2025-09-09 21:53:22,047 - INFO - STEP 3: Model Training
+2025-09-09 21:53:22,047 - INFO - ==================================================
+2025-09-09 21:53:22,047 - INFO - Starting model training...
+2025-09-09 21:53:24,056 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-09 21:53:24,064 - INFO - Training SVM models...
+2025-09-09 21:53:28,444 - INFO - SVM classifier trained and saved
+2025-09-09 21:53:29,091 - INFO - SVM regressor trained and saved
+2025-09-09 21:53:29,091 - INFO - Training ANN models...
+2025-09-09 21:53:30,059 - INFO - ANN classifier trained - Accuracy: 0.9050
+2025-09-09 21:53:33,178 - INFO - ANN regressor trained - R²: 0.7706
+2025-09-09 21:53:33,178 - INFO - Training clustering models...
+2025-09-09 21:53:35,587 - INFO - Clustering models trained and saved
+2025-09-09 21:53:35,587 - INFO - All models trained successfully!
+2025-09-09 21:53:35,589 - INFO - ======================================================================
+2025-09-09 21:53:35,589 - INFO - PROJECT COMPLETED SUCCESSFULLY!
+2025-09-09 21:53:35,589 - INFO - All components have been generated and saved.
+2025-09-09 21:53:35,589 - INFO - Check the following directories for outputs:
+2025-09-09 21:53:35,589 - INFO -   data/ - Generated datasets
+2025-09-09 21:53:35,589 - INFO -   models/ - Trained machine learning models
+2025-09-09 21:53:35,589 - INFO -   results/ - Analysis results and visualizations
+2025-09-09 21:53:35,589 - INFO -   notebooks/ - Jupyter notebooks for detailed analysis
+2025-09-09 21:53:35,589 - INFO - ======================================================================
+2025-09-09 21:53:59,629 - INFO - Starting Soil Health Monitoring Project...
+2025-09-09 21:53:59,631 - INFO - Running step: evaluate
+2025-09-09 21:53:59,632 - INFO - Directory created/verified: data
+2025-09-09 21:53:59,632 - INFO - Directory created/verified: models
+2025-09-09 21:53:59,632 - INFO - Directory created/verified: results
+2025-09-09 21:53:59,632 - INFO - Directory created/verified: results/visualizations
+2025-09-09 21:53:59,632 - INFO - Directory created/verified: logs
+2025-09-09 21:53:59,632 - INFO - ==================================================
+2025-09-09 21:53:59,632 - INFO - STEP 4: Model Evaluation
+2025-09-09 21:53:59,632 - INFO - ==================================================
+2025-09-09 21:53:59,632 - INFO - Starting model evaluation...
+2025-09-09 21:54:01,637 - ERROR - Model evaluation failed: [Errno 2] No such file or directory: 'models/preprocessor.pkl'
+2025-09-09 21:54:01,637 - INFO - ======================================================================
+2025-09-09 21:54:01,637 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-09 21:54:01,637 - ERROR - Please check the logs for details.
+2025-09-09 21:54:01,637 - INFO - ======================================================================
+2025-09-10 18:53:02,395 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 18:53:02,396 - INFO - Running step: evaluate
+2025-09-10 18:53:02,397 - INFO - Directory created/verified: data
+2025-09-10 18:53:02,397 - INFO - Directory created/verified: models
+2025-09-10 18:53:02,397 - INFO - Directory created/verified: results
+2025-09-10 18:53:02,398 - INFO - Directory created/verified: results/visualizations
+2025-09-10 18:53:02,398 - INFO - Directory created/verified: logs
+2025-09-10 18:53:02,398 - INFO - ==================================================
+2025-09-10 18:53:02,399 - INFO - STEP 4: Model Evaluation
+2025-09-10 18:53:02,399 - INFO - ==================================================
+2025-09-10 18:53:02,399 - INFO - Starting model evaluation...
+2025-09-10 18:53:43,373 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 18:53:43,391 - INFO - Evaluating SVM models...
+2025-09-10 18:53:44,354 - ERROR - Model evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 18:53:44,356 - INFO - ======================================================================
+2025-09-10 18:53:44,356 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 18:53:44,356 - ERROR - Please check the logs for details.
+2025-09-10 18:53:44,356 - INFO - ======================================================================
+2025-09-10 18:55:33,578 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 18:55:33,579 - INFO - Running step: evaluate
+2025-09-10 18:55:33,579 - INFO - Directory created/verified: data
+2025-09-10 18:55:33,579 - INFO - Directory created/verified: models
+2025-09-10 18:55:33,579 - INFO - Directory created/verified: results
+2025-09-10 18:55:33,579 - INFO - Directory created/verified: results/visualizations
+2025-09-10 18:55:33,581 - INFO - Directory created/verified: logs
+2025-09-10 18:55:33,581 - INFO - ==================================================
+2025-09-10 18:55:33,581 - INFO - STEP 4: Model Evaluation
+2025-09-10 18:55:33,581 - INFO - ==================================================
+2025-09-10 18:55:33,581 - INFO - Starting model evaluation...
+2025-09-10 18:55:35,579 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 18:55:35,594 - INFO - Loading trained models...
+2025-09-10 18:55:35,607 - INFO - Evaluating classification models...
+2025-09-10 18:55:36,554 - ERROR - Model evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 18:55:36,556 - INFO - ======================================================================
+2025-09-10 18:55:36,556 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 18:55:36,556 - ERROR - Please check the logs for details.
+2025-09-10 18:55:36,556 - INFO - ======================================================================
+2025-09-10 18:57:12,315 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 18:57:12,315 - INFO - Running step: evaluate
+2025-09-10 18:57:12,315 - INFO - Directory created/verified: data
+2025-09-10 18:57:12,315 - INFO - Directory created/verified: models
+2025-09-10 18:57:12,315 - INFO - Directory created/verified: results
+2025-09-10 18:57:12,315 - INFO - Directory created/verified: results/visualizations
+2025-09-10 18:57:12,315 - INFO - Directory created/verified: logs
+2025-09-10 18:57:12,315 - INFO - ==================================================
+2025-09-10 18:57:12,315 - INFO - STEP 4: Model Evaluation
+2025-09-10 18:57:12,315 - INFO - ==================================================
+2025-09-10 18:57:12,315 - INFO - Starting model evaluation...
+2025-09-10 18:57:14,429 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 18:57:14,447 - INFO - Loading trained models...
+2025-09-10 18:57:14,454 - INFO - Evaluating classification models...
+2025-09-10 18:57:15,300 - ERROR - Model evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 18:57:15,300 - INFO - ======================================================================
+2025-09-10 18:57:15,300 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 18:57:15,300 - ERROR - Please check the logs for details.
+2025-09-10 18:57:15,300 - INFO - ======================================================================
+2025-09-10 18:58:15,491 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 18:58:15,491 - INFO - Running step: evaluate
+2025-09-10 18:58:15,491 - INFO - Directory created/verified: data
+2025-09-10 18:58:15,495 - INFO - Directory created/verified: models
+2025-09-10 18:58:15,495 - INFO - Directory created/verified: results
+2025-09-10 18:58:15,495 - INFO - Directory created/verified: results/visualizations
+2025-09-10 18:58:15,495 - INFO - Directory created/verified: logs
+2025-09-10 18:58:15,495 - INFO - ==================================================
+2025-09-10 18:58:15,495 - INFO - STEP 4: Model Evaluation
+2025-09-10 18:58:15,495 - INFO - ==================================================
+2025-09-10 18:58:15,495 - INFO - Starting model evaluation...
+2025-09-10 18:58:17,634 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 18:58:17,647 - INFO - Loading trained models...
+2025-09-10 18:58:17,659 - INFO - Evaluating classification models...
+2025-09-10 18:58:17,659 - INFO - SVM test data shape: (1000, 24)
+2025-09-10 18:58:17,660 - INFO - SVM test target shape: (1000,)
+2025-09-10 18:58:18,536 - INFO - SVM prediction shape: 2
+2025-09-10 18:58:18,537 - ERROR - SVM classification evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 18:58:18,537 - INFO - ANN test data shape: (1000, 24)
+2025-09-10 18:58:18,537 - INFO - ANN test target shape: (1000,)
+2025-09-10 18:58:18,549 - INFO - ANN prediction shape: (1000,)
+2025-09-10 18:58:18,551 - INFO - ANN Classifier Test Accuracy: 0.0000
+2025-09-10 18:58:18,551 - INFO - Evaluating regression models...
+2025-09-10 18:58:19,125 - INFO - SVM Regressor Test R²: 0.0670, RMSE: 9.0891
+2025-09-10 18:58:19,140 - INFO - ANN Regressor Test R²: 0.7706, RMSE: 4.5064
+2025-09-10 18:58:19,141 - INFO - Model evaluation completed successfully!
+2025-09-10 18:58:19,142 - INFO - ======================================================================
+2025-09-10 18:58:19,142 - INFO - PROJECT COMPLETED SUCCESSFULLY!
+2025-09-10 18:58:19,142 - INFO - All components have been generated and saved.
+2025-09-10 18:58:19,143 - INFO - Check the following directories for outputs:
+2025-09-10 18:58:19,143 - INFO -   data/ - Generated datasets
+2025-09-10 18:58:19,143 - INFO -   models/ - Trained machine learning models
+2025-09-10 18:58:19,143 - INFO -   results/ - Analysis results and visualizations
+2025-09-10 18:58:19,143 - INFO -   notebooks/ - Jupyter notebooks for detailed analysis
+2025-09-10 18:58:19,143 - INFO - ======================================================================
+2025-09-10 19:01:52,437 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:01:52,437 - INFO - Running step: visualize
+2025-09-10 19:01:52,437 - INFO - Directory created/verified: data
+2025-09-10 19:01:52,437 - INFO - Directory created/verified: models
+2025-09-10 19:01:52,437 - INFO - Directory created/verified: results
+2025-09-10 19:01:52,437 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:01:52,437 - INFO - Directory created/verified: logs
+2025-09-10 19:01:52,437 - INFO - ==================================================
+2025-09-10 19:01:52,437 - INFO - STEP 5: Visualization Generation
+2025-09-10 19:01:52,437 - INFO - ==================================================
+2025-09-10 19:01:52,437 - INFO - Generating visualizations...
+2025-09-10 19:19:15,241 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:19:15,244 - INFO - Running step: all
+2025-09-10 19:19:15,245 - INFO - Directory created/verified: data
+2025-09-10 19:19:15,245 - INFO - Directory created/verified: models
+2025-09-10 19:19:15,245 - INFO - Directory created/verified: results
+2025-09-10 19:19:15,245 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:19:15,245 - INFO - Directory created/verified: logs
+2025-09-10 19:19:15,245 - INFO - ==================================================
+2025-09-10 19:19:15,245 - INFO - STEP 1: Dataset Generation
+2025-09-10 19:19:15,245 - INFO - ==================================================
+2025-09-10 19:19:15,245 - INFO - Starting dataset generation...
+2025-09-10 19:19:51,096 - INFO - Dataset generated successfully: data/soil_health_dataset.csv
+2025-09-10 19:19:51,096 - INFO - Test dataset generated: data/soil_health_test_dataset.csv
+2025-09-10 19:19:51,097 - INFO - ==================================================
+2025-09-10 19:19:51,097 - INFO - STEP 2: Data Exploration
+2025-09-10 19:19:51,098 - INFO - ==================================================
+2025-09-10 19:19:51,098 - INFO - Running data exploration...
+2025-09-10 19:19:51,098 - INFO - Please run the notebook: notebooks/dataset_exploration.ipynb
+2025-09-10 19:19:51,098 - INFO - Data exploration completed (manual step)
+2025-09-10 19:19:51,098 - INFO - ==================================================
+2025-09-10 19:19:51,099 - INFO - STEP 3: Model Training
+2025-09-10 19:19:51,099 - INFO - ==================================================
+2025-09-10 19:19:51,099 - INFO - Starting model training...
+2025-09-10 19:19:55,746 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:19:55,752 - INFO - Training SVM models...
+2025-09-10 19:20:00,461 - INFO - SVM classifier trained and saved
+2025-09-10 19:20:01,142 - INFO - SVM regressor trained and saved
+2025-09-10 19:20:01,142 - INFO - Training ANN models...
+2025-09-10 19:20:02,575 - INFO - ANN classifier trained - Accuracy: 0.9050
+2025-09-10 19:20:06,942 - INFO - ANN regressor trained - R²: 0.7706
+2025-09-10 19:20:06,942 - INFO - Training clustering models...
+2025-09-10 19:20:12,212 - INFO - Clustering models trained and saved
+2025-09-10 19:20:12,212 - INFO - All models trained successfully!
+2025-09-10 19:20:12,212 - INFO - ==================================================
+2025-09-10 19:20:12,212 - INFO - STEP 4: Model Evaluation
+2025-09-10 19:20:12,212 - INFO - ==================================================
+2025-09-10 19:20:12,212 - INFO - Starting model evaluation...
+2025-09-10 19:20:12,229 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:20:12,242 - INFO - Loading trained models...
+2025-09-10 19:20:12,353 - INFO - Evaluating classification models...
+2025-09-10 19:20:12,355 - INFO - SVM test data shape: (1000, 24)
+2025-09-10 19:20:12,355 - INFO - SVM test target shape: (1000,)
+2025-09-10 19:20:13,382 - INFO - SVM prediction shape: 2
+2025-09-10 19:20:13,382 - ERROR - SVM classification evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 19:20:13,382 - INFO - ANN test data shape: (1000, 24)
+2025-09-10 19:20:13,382 - INFO - ANN test target shape: (1000,)
+2025-09-10 19:20:13,389 - INFO - ANN prediction shape: (1000,)
+2025-09-10 19:20:13,392 - INFO - ANN Classifier Test Accuracy: 0.0000
+2025-09-10 19:20:13,392 - INFO - Evaluating regression models...
+2025-09-10 19:20:13,734 - INFO - SVM Regressor Test R²: 0.0670, RMSE: 9.0891
+2025-09-10 19:20:13,739 - INFO - ANN Regressor Test R²: 0.7706, RMSE: 4.5064
+2025-09-10 19:20:13,741 - INFO - Model evaluation completed successfully!
+2025-09-10 19:20:13,741 - INFO - ==================================================
+2025-09-10 19:20:13,741 - INFO - STEP 5: Visualization Generation
+2025-09-10 19:20:13,742 - INFO - ==================================================
+2025-09-10 19:20:13,742 - INFO - Generating visualizations...
+2025-09-10 19:24:40,123 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:24:40,123 - INFO - Running step: evaluate
+2025-09-10 19:24:40,123 - INFO - Directory created/verified: data
+2025-09-10 19:24:40,123 - INFO - Directory created/verified: models
+2025-09-10 19:24:40,123 - INFO - Directory created/verified: results
+2025-09-10 19:24:40,123 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:24:40,123 - INFO - Directory created/verified: logs
+2025-09-10 19:24:40,123 - INFO - ==================================================
+2025-09-10 19:24:40,123 - INFO - STEP 4: Model Evaluation
+2025-09-10 19:24:40,123 - INFO - ==================================================
+2025-09-10 19:24:40,123 - INFO - Starting model evaluation...
+2025-09-10 19:24:43,714 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:24:43,733 - INFO - Evaluating SVM models...
+2025-09-10 19:24:44,555 - ERROR - Model evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 19:24:44,555 - INFO - ======================================================================
+2025-09-10 19:24:44,555 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 19:24:44,555 - ERROR - Please check the logs for details.
+2025-09-10 19:24:44,555 - INFO - ======================================================================
+2025-09-10 19:26:25,850 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:26:25,852 - INFO - Running step: evaluate
+2025-09-10 19:26:25,852 - INFO - Directory created/verified: data
+2025-09-10 19:26:25,852 - INFO - Directory created/verified: models
+2025-09-10 19:26:25,853 - INFO - Directory created/verified: results
+2025-09-10 19:26:25,853 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:26:25,854 - INFO - Directory created/verified: logs
+2025-09-10 19:26:25,854 - INFO - ==================================================
+2025-09-10 19:26:25,854 - INFO - STEP 4: Model Evaluation
+2025-09-10 19:26:25,854 - INFO - ==================================================
+2025-09-10 19:26:25,854 - INFO - Starting model evaluation...
+2025-09-10 19:26:28,109 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:26:28,120 - INFO - Evaluating SVM models...
+2025-09-10 19:26:28,995 - ERROR - Model evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 19:26:28,995 - INFO - ======================================================================
+2025-09-10 19:26:28,995 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 19:26:28,995 - ERROR - Please check the logs for details.
+2025-09-10 19:26:28,995 - INFO - ======================================================================
+2025-09-10 19:27:15,023 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:27:15,023 - INFO - Running step: evaluate
+2025-09-10 19:27:15,025 - INFO - Directory created/verified: data
+2025-09-10 19:27:15,026 - INFO - Directory created/verified: models
+2025-09-10 19:27:15,026 - INFO - Directory created/verified: results
+2025-09-10 19:27:15,027 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:27:15,027 - INFO - Directory created/verified: logs
+2025-09-10 19:27:15,027 - INFO - ==================================================
+2025-09-10 19:27:15,027 - INFO - STEP 4: Model Evaluation
+2025-09-10 19:27:15,027 - INFO - ==================================================
+2025-09-10 19:27:15,027 - INFO - Starting model evaluation...
+2025-09-10 19:27:17,235 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:27:17,248 - INFO - Evaluating SVM models...
+2025-09-10 19:27:18,065 - ERROR - Model evaluation failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 19:27:18,065 - INFO - ======================================================================
+2025-09-10 19:27:18,065 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 19:27:18,065 - ERROR - Please check the logs for details.
+2025-09-10 19:27:18,065 - INFO - ======================================================================
+2025-09-10 19:28:36,019 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:28:36,019 - INFO - Running step: evaluate
+2025-09-10 19:28:36,019 - INFO - Directory created/verified: data
+2025-09-10 19:28:36,021 - INFO - Directory created/verified: models
+2025-09-10 19:28:36,021 - INFO - Directory created/verified: results
+2025-09-10 19:28:36,021 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:28:36,021 - INFO - Directory created/verified: logs
+2025-09-10 19:28:36,021 - INFO - ==================================================
+2025-09-10 19:28:36,023 - INFO - STEP 4: Model Evaluation
+2025-09-10 19:28:36,023 - INFO - ==================================================
+2025-09-10 19:28:36,023 - INFO - Starting model evaluation...
+2025-09-10 19:28:38,337 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:28:38,360 - INFO - Evaluating SVM models...
+2025-09-10 19:28:38,365 - INFO - X_test_class shape: (1000, 24)
+2025-09-10 19:28:38,365 - INFO - y_test_class shape: (1000,)
+2025-09-10 19:28:39,203 - ERROR - SVM Classification prediction failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 19:28:39,203 - INFO - X_test_reg shape: (1000, 24)
+2025-09-10 19:28:39,203 - INFO - y_test_reg shape: (1000,)
+2025-09-10 19:28:39,662 - INFO - SVM Regressor Test R²: 0.0670, RMSE: 9.0891
+2025-09-10 19:28:39,664 - INFO - Skipping ANN evaluation (categorical encoding compatibility issue)
+2025-09-10 19:28:39,665 - INFO - Model evaluation completed successfully!
+2025-09-10 19:28:39,665 - INFO - ======================================================================
+2025-09-10 19:28:39,665 - INFO - PROJECT COMPLETED SUCCESSFULLY!
+2025-09-10 19:28:39,665 - INFO - All components have been generated and saved.
+2025-09-10 19:28:39,667 - INFO - Check the following directories for outputs:
+2025-09-10 19:28:39,667 - INFO -   data/ - Generated datasets
+2025-09-10 19:28:39,667 - INFO -   models/ - Trained machine learning models
+2025-09-10 19:28:39,668 - INFO -   results/ - Analysis results and visualizations
+2025-09-10 19:28:39,668 - INFO -   notebooks/ - Jupyter notebooks for detailed analysis
+2025-09-10 19:28:39,668 - INFO - ======================================================================
+2025-09-10 19:29:56,116 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:29:56,117 - INFO - Running step: visualize
+2025-09-10 19:29:56,117 - INFO - Directory created/verified: data
+2025-09-10 19:29:56,117 - INFO - Directory created/verified: models
+2025-09-10 19:29:56,117 - INFO - Directory created/verified: results
+2025-09-10 19:29:56,117 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:29:56,117 - INFO - Directory created/verified: logs
+2025-09-10 19:29:56,117 - INFO - ==================================================
+2025-09-10 19:29:56,117 - INFO - STEP 5: Visualization Generation
+2025-09-10 19:29:56,117 - INFO - ==================================================
+2025-09-10 19:29:56,117 - INFO - Generating visualizations...
+2025-09-10 19:43:02,467 - INFO - Starting Soil Health Monitoring Project...
+2025-09-10 19:43:02,469 - INFO - Running step: all
+2025-09-10 19:43:02,470 - INFO - Directory created/verified: data
+2025-09-10 19:43:02,471 - INFO - Directory created/verified: models
+2025-09-10 19:43:02,471 - INFO - Directory created/verified: results
+2025-09-10 19:43:02,472 - INFO - Directory created/verified: results/visualizations
+2025-09-10 19:43:02,472 - INFO - Directory created/verified: logs
+2025-09-10 19:43:02,472 - INFO - ==================================================
+2025-09-10 19:43:02,472 - INFO - STEP 1: Dataset Generation
+2025-09-10 19:43:02,472 - INFO - ==================================================
+2025-09-10 19:43:02,472 - INFO - Starting dataset generation...
+2025-09-10 19:43:07,278 - INFO - Dataset generated successfully: data/soil_health_dataset.csv
+2025-09-10 19:43:07,278 - INFO - Test dataset generated: data/soil_health_test_dataset.csv
+2025-09-10 19:43:07,280 - INFO - ==================================================
+2025-09-10 19:43:07,280 - INFO - STEP 2: Data Exploration
+2025-09-10 19:43:07,280 - INFO - ==================================================
+2025-09-10 19:43:07,280 - INFO - Running data exploration...
+2025-09-10 19:43:07,280 - INFO - Please run the notebook: notebooks/dataset_exploration.ipynb
+2025-09-10 19:43:07,284 - INFO - Data exploration completed (manual step)
+2025-09-10 19:43:07,284 - INFO - ==================================================
+2025-09-10 19:43:07,284 - INFO - STEP 3: Model Training
+2025-09-10 19:43:07,284 - INFO - ==================================================
+2025-09-10 19:43:07,285 - INFO - Starting model training...
+2025-09-10 19:43:07,837 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:43:07,841 - INFO - Training SVM models...
+2025-09-10 19:43:12,609 - INFO - SVM classifier trained and saved
+2025-09-10 19:43:13,287 - INFO - SVM regressor trained and saved
+2025-09-10 19:43:13,287 - INFO - Training ANN models...
+2025-09-10 19:43:14,682 - INFO - ANN classifier trained - Accuracy: 0.9050
+2025-09-10 19:43:18,998 - INFO - ANN regressor trained - R²: 0.7706
+2025-09-10 19:43:18,998 - INFO - Training clustering models...
+2025-09-10 19:43:22,631 - INFO - Clustering models trained and saved
+2025-09-10 19:43:22,631 - INFO - All models trained successfully!
+2025-09-10 19:43:22,631 - INFO - ==================================================
+2025-09-10 19:43:22,631 - INFO - STEP 4: Model Evaluation
+2025-09-10 19:43:22,631 - INFO - ==================================================
+2025-09-10 19:43:22,631 - INFO - Starting model evaluation...
+2025-09-10 19:43:22,647 - INFO - Loaded dataset with shape: (5000, 33)
+2025-09-10 19:43:22,669 - INFO - Evaluating SVM models...
+2025-09-10 19:43:22,708 - INFO - X_test_class shape: (1000, 24)
+2025-09-10 19:43:22,708 - INFO - y_test_class shape: (1000,)
+2025-09-10 19:43:23,537 - ERROR - SVM Classification prediction failed: Found input variables with inconsistent numbers of samples: [1000, 2]
+2025-09-10 19:43:23,537 - INFO - X_test_reg shape: (1000, 24)
+2025-09-10 19:43:23,537 - INFO - y_test_reg shape: (1000,)
+2025-09-10 19:43:24,091 - INFO - SVM Regressor Test R²: 0.0670, RMSE: 9.0891
+2025-09-10 19:43:24,091 - INFO - Skipping ANN evaluation (categorical encoding compatibility issue)
+2025-09-10 19:43:24,091 - INFO - Model evaluation completed successfully!
+2025-09-10 19:43:24,091 - INFO - ==================================================
+2025-09-10 19:43:24,091 - INFO - STEP 5: Visualization Generation
+2025-09-10 19:43:24,091 - INFO - ==================================================
+2025-09-10 19:43:24,091 - INFO - Generating visualizations...
+2025-09-10 20:31:24,180 - INFO - Visualizations generated successfully
+2025-09-10 20:31:24,237 - INFO - ==================================================
+2025-09-10 20:31:24,237 - INFO - STEP 6: Report Generation
+2025-09-10 20:31:24,237 - INFO - ==================================================
+2025-09-10 20:31:24,239 - INFO - Generating project report...
+2025-09-10 20:31:24,535 - ERROR - Report generation failed: 'measurement_date'
+2025-09-10 20:31:24,537 - INFO - ======================================================================
+2025-09-10 20:31:24,538 - ERROR - PROJECT COMPLETED WITH ERRORS
+2025-09-10 20:31:24,539 - ERROR - Please check the logs for details.
+2025-09-10 20:31:24,541 - INFO - ======================================================================

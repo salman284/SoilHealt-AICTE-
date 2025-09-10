@@ -1,0 +1,8 @@
+{
+  "SVM_Classifier_Accuracy": 0.0,
+  "ANN_Classifier_Accuracy": 0.0,
+  "SVM_Regressor_R2": 0.06696217753804501,
+  "SVM_Regressor_RMSE": 9.08909286921986,
+  "ANN_Regressor_R2": 0.0,
+  "ANN_Regressor_RMSE": 0.0
+}

@@ -1,0 +1,57 @@
+Soil Health Dataset Summary
+==================================================
+
+Total samples: 5000
+Features: 33
+
+Dataset Info:
+None
+
+Summary Statistics:
+          latitude    longitude  ...  fertilizer_k_recommendation irrigation_requirement
+count  5000.000000  5000.000000  ...                  5000.000000            5000.000000
+mean     34.935620   -95.425820  ...                    91.382620              26.245660
+min      25.000000  -120.000000  ...                     0.000000               0.000000
+25%      29.900000  -107.625000  ...                    78.500000              16.800000
+50%      35.000000   -95.700000  ...                    95.400000              24.300000
+75%      40.000000   -83.300000  ...                   108.800000              33.900000
+max      45.000000   -70.000000  ...                   130.000000              67.500000
+std       5.793471    14.280773  ...                    23.685138              13.062192
+
+[8 rows x 29 columns]
+
+Missing Values:
+latitude                       0
+longitude                      0
+elevation                      0
+date                           0
+month                          0
+season                         0
+soil_moisture                  0
+soil_temperature               0
+soil_ph                        0
+bulk_density                   0
+sand_percentage                0
+silt_percentage                0
+clay_percentage                0
+nitrogen_content               0
+phosphorus_content             0
+potassium_content              0
+organic_matter                 0
+electrical_conductivity        0
+air_temperature                0
+relative_humidity              0
+rainfall                       0
+solar_radiation                0
+days_since_fertilization       0
+fertilizer_type                0
+irrigation_frequency           0
+crop_rotation                  0
+soil_health_index              0
+crop_yield_potential           0
+fertilizer_n_recommendation    0
+fertilizer_p_recommendation    0
+fertilizer_k_recommendation    0
+irrigation_requirement         0
+soil_degradation_risk          0
+dtype: int64

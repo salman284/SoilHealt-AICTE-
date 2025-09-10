@@ -324,12 +324,20 @@ class SoilDataGenerator:
     
     def save_dataset(self, df, filename='soil_health_dataset.csv'):
         """Save the dataset to CSV file"""
-        filepath = f"data/{filename}"
+        import os
+        
+        # Ensure the data directory exists
+        data_dir = "data"
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
+        
+        filepath = os.path.join(data_dir, filename)
         df.to_csv(filepath, index=False)
         print(f"Dataset saved to {filepath}")
         
         # Save summary statistics
-        summary_filepath = filepath.replace('.csv', '_summary.txt')
+        summary_filename = filename.replace('.csv', '_summary.txt')
+        summary_filepath = os.path.join(data_dir, summary_filename)
         with open(summary_filepath, 'w') as f:
             f.write("Soil Health Dataset Summary\n")
             f.write("=" * 50 + "\n\n")
